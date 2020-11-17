@@ -6,6 +6,8 @@
 GET     /                                       Application.index
 GET     /login                                  Application.login
 GET     /trylogin                               Application.trylogin(String login, String password)
+GET     /test                                   Application.test
+
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
